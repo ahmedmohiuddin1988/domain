@@ -1,3 +1,4 @@
+using Domain.Core.Business;
 using Domain.Core.Business.Agency;
 using Domain.Core.Entity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -22,15 +23,15 @@ namespace Domain.CoreUnitTest
                 Name = "*Super*-High! APARTMENTS (Sydney)",
                 Address = "32 Sir John-Young Crescent, Sydney, NSW."
             };
+            var provider = AgencyFactory.GetProvider("OTBRE");
 
             //Action
-            var result = new OTBREAgency().IsMatch(agencyProperty, databaseProperty);
+            var result = provider.IsMatch(agencyProperty, databaseProperty);
 
             //Assert
             Assert.IsTrue(result);
         }
-
-
+        
         [TestMethod]
         public void LRE_Agency_Test_With_Matching_Address()
         {
@@ -49,8 +50,10 @@ namespace Domain.CoreUnitTest
                 Longitude = 151.207628
             };
 
+            var provider = AgencyFactory.GetProvider("LRE");
+
             //Action
-            var result = new LREAgency().IsMatch(agencyProperty, databaseProperty);
+            var result = provider.IsMatch(agencyProperty, databaseProperty);
 
             //Assert
             Assert.IsTrue(result);
@@ -70,8 +73,10 @@ namespace Domain.CoreUnitTest
                 Name = "Apartments Summit The"
             };
 
+            var provider = AgencyFactory.GetProvider("CRE");
+
             //Action
-            var result = new CREAgency().IsMatch(agencyProperty, databaseProperty);
+            var result = provider.IsMatch(agencyProperty, databaseProperty);
 
             //Assert
             Assert.IsTrue(result);
