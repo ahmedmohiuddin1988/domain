@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "53acac9bed92153f7c576791b5b68cecfbd6bdcc"
+    "signature": "b262790847033f205bdac2cb023119f101378841"
   },
   "compilationOptions": {},
   "targets": {
@@ -15,6 +15,14 @@
         },
         "runtime": {
           "Domain.CoreUnitTest.dll": {}
+        }
+      },
+      "Autofac/4.6.2": {
+        "dependencies": {
+          "System.ComponentModel": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
         }
       },
       "GeoCoordinate.NetCore/1.0.0.1": {
@@ -1006,6 +1014,7 @@
       },
       "Domain.Core/1.0.0": {
         "dependencies": {
+          "Autofac": "4.6.2",
           "GeoCoordinate.NetCore": "1.0.0.1"
         },
         "runtime": {
@@ -1019,6 +1028,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/4.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wKI7F6+n45gqfq0T8FuB3hFzaCkuegiFo5in6uB1y2Ai9ZYcjue8yqk3yzyNEwBDS7AyvlTUGSoNovwpUuKqTw==",
+      "path": "autofac/4.6.2",
+      "hashPath": "autofac.4.6.2.nupkg.sha512"
     },
     "GeoCoordinate.NetCore/1.0.0.1": {
       "type": "package",

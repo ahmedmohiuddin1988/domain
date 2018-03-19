@@ -13,8 +13,8 @@ namespace Domain.CoreUnitTest
             //Arrange
             var databaseProperty = new Property()
             {
-                Name = "Super ­High APARTMENTS, Sydney",
-                Address = "32 Sir John­ Young Crescent, Sydney, NSW."
+                Name = "Super High Apartments, Sydney",
+                Address = "32 Sir John Young Crescent, Sydney NSW"
             };
 
             var agencyProperty = new Property()
@@ -24,7 +24,7 @@ namespace Domain.CoreUnitTest
             };
 
             //Action
-            var result = new CREAgency().IsMatch(agencyProperty, databaseProperty);
+            var result = new OTBREAgency().IsMatch(agencyProperty, databaseProperty);
 
             //Assert
             Assert.IsTrue(result);
