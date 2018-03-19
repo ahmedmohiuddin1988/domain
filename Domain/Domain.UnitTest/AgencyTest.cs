@@ -51,7 +51,7 @@ namespace Domain.UnitTest
             };
 
             //Action
-            var result = new CREAgency().IsMatch(agencyProperty, databaseProperty);
+            var result = new LREAgency().IsMatch(agencyProperty, databaseProperty);
 
             //Assert
             Assert.IsTrue(result);

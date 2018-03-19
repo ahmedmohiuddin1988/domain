@@ -109,3 +109,4 @@ C:\Local-repo\Domain\Domain.UnitTest\obj\Debug\Domain.UnitTest.csprojResolveAsse
 C:\Local-repo\Domain\Domain.UnitTest\obj\Debug\Domain.UnitTest.csproj.CoreCompileInputs.cache
 C:\Local-repo\Domain\Domain.UnitTest\obj\Debug\Domain.UnitTest.dll
 C:\Local-repo\Domain\Domain.UnitTest\obj\Debug\Domain.UnitTest.pdb
+C:\Local-repo\Domain\Domain.UnitTest\bin\Debug\GeoCoordinate.NetCore.dll

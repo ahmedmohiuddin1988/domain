@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "2468f8819b4e290b1a8667020137de51bd83af19"
+    "signature": "5920c39b3026441ed6eecdd46cfff33a49385794"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,10 +9,16 @@
     ".NETStandard,Version=v2.0/": {
       "Domain.Core/1.0.0": {
         "dependencies": {
+          "GeoCoordinate.NetCore": "1.0.0.1",
           "NETStandard.Library": "2.0.1"
         },
         "runtime": {
           "Domain.Core.dll": {}
+        }
+      },
+      "GeoCoordinate.NetCore/1.0.0.1": {
+        "runtime": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -28,6 +34,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "GeoCoordinate.NetCore/1.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VrR5MLkh0u2qka79JcQ/GUrgHwGidayCA7nKy2430qYX/JHdrHLgwp1MuBTSsygWs0s2V6GQ0Hp8HUMatHiWFw==",
+      "path": "geocoordinate.netcore/1.0.0.1",
+      "hashPath": "geocoordinate.netcore.1.0.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
