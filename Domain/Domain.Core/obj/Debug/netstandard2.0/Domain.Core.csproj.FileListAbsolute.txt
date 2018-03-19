@@ -10,7 +10,6 @@ C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.Core\obj
 C:\Local-repo\Domain\Domain.Core\bin\Debug\netstandard2.0\Domain.Core.deps.json
 C:\Local-repo\Domain\Domain.Core\bin\Debug\netstandard2.0\Domain.Core.dll
 C:\Local-repo\Domain\Domain.Core\bin\Debug\netstandard2.0\Domain.Core.pdb
-C:\Local-repo\Domain\Domain.Core\obj\Debug\netstandard2.0\Domain.Core.csprojResolveAssemblyReference.cache
 C:\Local-repo\Domain\Domain.Core\obj\Debug\netstandard2.0\Domain.Core.csproj.CoreCompileInputs.cache
 C:\Local-repo\Domain\Domain.Core\obj\Debug\netstandard2.0\Domain.Core.AssemblyInfoInputs.cache
 C:\Local-repo\Domain\Domain.Core\obj\Debug\netstandard2.0\Domain.Core.AssemblyInfo.cs

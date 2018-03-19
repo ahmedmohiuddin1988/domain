@@ -36,6 +36,7 @@ namespace Domain.Core.Business
 
         public static IPropertyMatcher GetProvider(string agencyCode)
         {
+            
             return container
                 .Resolve<IEnumerable<PropertyMatcher>>()?
                 .FirstOrDefault(o => o.AgencyCode.Equals(agencyCode, StringComparison.OrdinalIgnoreCase));
