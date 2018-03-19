@@ -1,0 +1,13 @@
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\bin\Debug\netcoreapp2.0\Domain.API.deps.json
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\bin\Debug\netcoreapp2.0\Domain.API.runtimeconfig.json
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\bin\Debug\netcoreapp2.0\Domain.API.runtimeconfig.dev.json
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\bin\Debug\netcoreapp2.0\Domain.API.dll
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\bin\Debug\netcoreapp2.0\Domain.API.pdb
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\bin\Debug\netcoreapp2.0\Domain.Core.dll
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\bin\Debug\netcoreapp2.0\Domain.Core.pdb
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\obj\Debug\netcoreapp2.0\Domain.API.csprojResolveAssemblyReference.cache
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\obj\Debug\netcoreapp2.0\Domain.API.csproj.CoreCompileInputs.cache
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\obj\Debug\netcoreapp2.0\Domain.API.AssemblyInfoInputs.cache
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\obj\Debug\netcoreapp2.0\Domain.API.AssemblyInfo.cs
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\obj\Debug\netcoreapp2.0\Domain.API.dll
+C:\Users\amohiuddin\Documents\Visual Studio 2017\Projects\Domain\Domain.API\obj\Debug\netcoreapp2.0\Domain.API.pdb
