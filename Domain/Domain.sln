@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Core", "Domain.Core\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.API", "Domain.API\Domain.API.csproj", "{4156EA5C-3F2B-4AF5-B022-61089C2A9355}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.CoreUnitTest", "Domain.CoreUnitTest\Domain.CoreUnitTest.csproj", "{14323229-6A5D-4EC4-9801-6D0DF8391C95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTest", "Domain.CoreUnitTest\Domain.UnitTest.csproj", "{14323229-6A5D-4EC4-9801-6D0DF8391C95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

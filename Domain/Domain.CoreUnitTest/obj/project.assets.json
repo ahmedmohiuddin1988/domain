@@ -5769,9 +5769,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Local-repo\\Domain\\Domain.CoreUnitTest\\Domain.CoreUnitTest.csproj",
-      "projectName": "Domain.CoreUnitTest",
-      "projectPath": "C:\\Local-repo\\Domain\\Domain.CoreUnitTest\\Domain.CoreUnitTest.csproj",
+      "projectUniqueName": "C:\\Local-repo\\Domain\\Domain.CoreUnitTest\\Domain.UnitTest.csproj",
+      "projectName": "Domain.UnitTest",
+      "projectPath": "C:\\Local-repo\\Domain\\Domain.CoreUnitTest\\Domain.UnitTest.csproj",
       "packagesPath": "C:\\Users\\amohiuddin\\.nuget\\packages\\",
       "outputPath": "C:\\Local-repo\\Domain\\Domain.CoreUnitTest\\obj\\",
       "projectStyle": "PackageReference",

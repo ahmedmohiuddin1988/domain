@@ -18,7 +18,7 @@ namespace Domain.Core.Util
         public static double GetDistanceByGeoCoordinatesInMeters(double latitude1, double longitude1, double latitude2, double longitude2)
         {
             var sCoord = new GeoCoordinate(latitude1, longitude1);
-            var eCoord = new GeoCoordinate(latitude1, longitude1);
+            var eCoord = new GeoCoordinate(latitude2, longitude2);
             return sCoord.GetDistanceTo(eCoord);
         }
     }

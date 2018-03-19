@@ -1,0 +1,16 @@
+C:\Local-repo\Domain\Domain.CoreUnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Local-repo\Domain\Domain.CoreUnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Local-repo\Domain\Domain.CoreUnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Local-repo\Domain\Domain.CoreUnitTest\bin\Debug\netcoreapp2.0\Domain.UnitTest.deps.json
+C:\Local-repo\Domain\Domain.CoreUnitTest\bin\Debug\netcoreapp2.0\Domain.UnitTest.runtimeconfig.json
+C:\Local-repo\Domain\Domain.CoreUnitTest\bin\Debug\netcoreapp2.0\Domain.UnitTest.runtimeconfig.dev.json
+C:\Local-repo\Domain\Domain.CoreUnitTest\bin\Debug\netcoreapp2.0\Domain.UnitTest.dll
+C:\Local-repo\Domain\Domain.CoreUnitTest\bin\Debug\netcoreapp2.0\Domain.UnitTest.pdb
+C:\Local-repo\Domain\Domain.CoreUnitTest\bin\Debug\netcoreapp2.0\Domain.Core.dll
+C:\Local-repo\Domain\Domain.CoreUnitTest\bin\Debug\netcoreapp2.0\Domain.Core.pdb
+C:\Local-repo\Domain\Domain.CoreUnitTest\obj\Debug\netcoreapp2.0\Domain.UnitTest.csprojResolveAssemblyReference.cache
+C:\Local-repo\Domain\Domain.CoreUnitTest\obj\Debug\netcoreapp2.0\Domain.UnitTest.csproj.CoreCompileInputs.cache
+C:\Local-repo\Domain\Domain.CoreUnitTest\obj\Debug\netcoreapp2.0\Domain.UnitTest.AssemblyInfoInputs.cache
+C:\Local-repo\Domain\Domain.CoreUnitTest\obj\Debug\netcoreapp2.0\Domain.UnitTest.AssemblyInfo.cs
+C:\Local-repo\Domain\Domain.CoreUnitTest\obj\Debug\netcoreapp2.0\Domain.UnitTest.dll
+C:\Local-repo\Domain\Domain.CoreUnitTest\obj\Debug\netcoreapp2.0\Domain.UnitTest.pdb
