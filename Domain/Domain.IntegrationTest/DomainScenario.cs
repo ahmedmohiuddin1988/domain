@@ -26,7 +26,7 @@ namespace Domain.IntegrationTest
             }
         }
         [Fact]
-        public async Task Post_property_and_response_400_status_code()
+        public async Task Post_property_null_and_response_400_status_code()
         {
             using (var server = CreateServer())
             {
@@ -39,7 +39,7 @@ namespace Domain.IntegrationTest
         }
 
         [Fact]
-        public async Task Post_property_and_response_NOT_Acceptable_code()
+        public async Task Post_property_and_response_400_status_code()
         {
             using (var server = CreateServer())
             {
@@ -53,7 +53,7 @@ namespace Domain.IntegrationTest
 
 
         [Fact]
-        public async Task Post_LRE_property_and_response_ok_status_code()
+        public async Task Post_LRE_property_and_response_OK_status_code()
         {
             using (var server = CreateServer())
             {
