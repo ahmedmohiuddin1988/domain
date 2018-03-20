@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.API.Model
 {
-    public class PropertyComparer
+    public class PropertyComparerDTO
     {
-        public Property DatabaseProperty { get; set; }
-        public Property AgencyProperty { get; set; }
+        public PropertyDTO DatabaseProperty { get; set; }
+        public PropertyDTO AgencyProperty { get; set; }
 
         public string Provider { get; set; }
     }

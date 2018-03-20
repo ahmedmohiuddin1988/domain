@@ -8,6 +8,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using AutoMapper;
+using Domain.API.Model;
+using Domain.Core.Entity;
 
 namespace Domain.API
 {
@@ -23,6 +26,14 @@ namespace Domain.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var config = new AutoMapper.MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<PropertyDTO, Property>();
+            });
+
+
+            var mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
             services.AddMvc();
         }
 

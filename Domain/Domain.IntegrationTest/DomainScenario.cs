@@ -69,15 +69,15 @@ namespace Domain.IntegrationTest
 
         string BuildOTBRE()
         {
-            var comparer = new PropertyComparer()
+            var comparer = new PropertyComparerDTO()
             {
-                DatabaseProperty = new Property()
+                DatabaseProperty = new PropertyDTO()
                 {
                     Name = "Super High Apartments, Sydney",
                     Address = "32 Sir John Young Crescent, Sydney NSW"
                 },
 
-                AgencyProperty = new Property()
+                AgencyProperty = new PropertyDTO()
                 {
                     Name = "*Super*-High! APARTMENTS (Sydney)",
                     Address = "32 Sir John-Young Crescent, Sydney, NSW."
@@ -90,7 +90,7 @@ namespace Domain.IntegrationTest
 
         string BuildNull()
         {
-            var comparer = new PropertyComparer()
+            var comparer = new PropertyComparerDTO()
             {
                 
 
@@ -99,16 +99,16 @@ namespace Domain.IntegrationTest
         }
         string BuildLRE()
         {
-            var comparer = new PropertyComparer()
+            var comparer = new PropertyComparerDTO()
             {
-                DatabaseProperty = new Property()
+                DatabaseProperty = new PropertyDTO()
                 {
                     AgencyCode = "21212er222",
                     Latitude = -33.9014586,
                     Longitude = 151.206287
                 },
 
-                AgencyProperty = new Property()
+                AgencyProperty = new PropertyDTO()
                 {
                     AgencyCode = "21212er222",
                     Latitude = -33.901191,
@@ -121,14 +121,14 @@ namespace Domain.IntegrationTest
         }
         string BuildCRE()
         {
-            var comparer = new PropertyComparer()
+            var comparer = new PropertyComparerDTO()
             {
-                DatabaseProperty = new Property()
+                DatabaseProperty = new PropertyDTO()
                 {
                     Name = "The Summit Apartments"
                 },
 
-                AgencyProperty = new Property()
+                AgencyProperty = new PropertyDTO()
                 {
                     Name = "Apartments Summit The"
                 },

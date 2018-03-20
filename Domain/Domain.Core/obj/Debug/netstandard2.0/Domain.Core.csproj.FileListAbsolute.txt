@@ -15,3 +15,4 @@ C:\Local-repo\Domain\Domain.Core\obj\Debug\netstandard2.0\Domain.Core.AssemblyIn
 C:\Local-repo\Domain\Domain.Core\obj\Debug\netstandard2.0\Domain.Core.AssemblyInfo.cs
 C:\Local-repo\Domain\Domain.Core\obj\Debug\netstandard2.0\Domain.Core.dll
 C:\Local-repo\Domain\Domain.Core\obj\Debug\netstandard2.0\Domain.Core.pdb
+C:\Local-repo\Domain\Domain.Core\obj\Debug\netstandard2.0\Domain.Core.csprojResolveAssemblyReference.cache

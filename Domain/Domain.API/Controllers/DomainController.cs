@@ -6,17 +6,26 @@ using Microsoft.AspNetCore.Mvc;
 using Domain.API.Model;
 using Domain.Core.Business;
 using System.Net;
+using AutoMapper;
+using Domain.Core.Entity;
 
 namespace Domain.API.Controllers
 {
     [Route("api/[controller]")]
     public class DomainController : Controller
-    {       
+    {
+        private readonly IMapper _mapper;
+
+        public DomainController(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
+
         // POST api/values
         [HttpPost]
         [ProducesResponseType((int)HttpStatusCode.Accepted)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-        public IActionResult MatchPropert([FromBody]PropertyComparer comparer)
+        public IActionResult MatchPropert([FromBody]PropertyComparerDTO comparer)
         {
             if (comparer == null)
             {
@@ -30,7 +39,7 @@ namespace Domain.API.Controllers
             
             var provider = AgencyFactory.GetProvider(comparer.Provider);
 
-            bool result =  provider.IsMatch(comparer.AgencyProperty, comparer.DatabaseProperty);
+            bool result =  provider.IsMatch(_mapper.Map<Property>(comparer.AgencyProperty), _mapper.Map<Property>(comparer.DatabaseProperty));
 
             return Ok(result);
         }         
