@@ -24,7 +24,7 @@ namespace Domain.UnitTest
                 Name = "*Super*-High! APARTMENTS (Sydney)",
                 Address = "32 Sir John-Young Crescent, Sydney, NSW."
             };
-            var provider = AgencyFactory.GetProvider("OTBRE");
+            var provider = AgencyFactory.GetProvider("OTBRE");                                        
 
             //Action
             var result = provider.IsMatch(agencyProperty, databaseProperty);
@@ -238,5 +238,20 @@ namespace Domain.UnitTest
             Assert.IsFalse(result);
         }
         #endregion
-    }
+
+        #region Invalid Provider Test
+        [TestMethod]
+        public void Invalid_Agency_Provider_Test()
+        {
+            //Arrange 
+            string invalid_Agency_provider = "DHL";
+            
+            //Action
+            var provider = AgencyFactory.GetProvider(invalid_Agency_provider);
+             
+            //Assert
+            Assert.IsNull(provider);
+        }
+        #endregion
+        }
 }

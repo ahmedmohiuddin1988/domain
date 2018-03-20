@@ -36,10 +36,15 @@ namespace Domain.Core.Business
 
         public static IPropertyMatcher GetProvider(string agencyCode)
         {
-            
+            if (!container
+                .Resolve<IEnumerable<PropertyMatcher>>().Any(o => o.AgencyCode.Equals(agencyCode, StringComparison.OrdinalIgnoreCase)))
+            {
+                return null;               
+            }
             return container
-                .Resolve<IEnumerable<PropertyMatcher>>()?
-                .FirstOrDefault(o => o.AgencyCode.Equals(agencyCode, StringComparison.OrdinalIgnoreCase));
+                    .Resolve<IEnumerable<PropertyMatcher>>()?
+                    .FirstOrDefault(o => o.AgencyCode.Equals(agencyCode, StringComparison.OrdinalIgnoreCase));
+
         }
     }
 }

@@ -17,12 +17,12 @@ namespace Domain.Core.Business.Agency
             }
         }
 
-        public override bool IsMatch(Property agencyProperty, Property databaseProperty)
+        public override bool IsMatch(Property ag_property, Property db_property)
         {
             var distance = Helper.
-                GetDistanceByGeoCoordinatesInMeters(agencyProperty.Latitude, agencyProperty.Longitude,
-                                                    databaseProperty.Latitude, databaseProperty.Longitude);
-            return (distance <= maxDistanceInMeters) && (agencyProperty.AgencyCode == databaseProperty.AgencyCode);
+                GetDistance(ag_property.Latitude, ag_property.Longitude,
+                                                    db_property.Latitude, db_property.Longitude);
+            return (distance <= maxDistanceInMeters) && (ag_property.AgencyCode == db_property.AgencyCode);
         }
     }
 }

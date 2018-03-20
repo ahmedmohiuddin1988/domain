@@ -16,12 +16,12 @@ namespace Domain.Core.Business.Agency
                 return "OTBRE";
             }
         }
-        public override bool IsMatch(Property agencyProperty, Property databaseProperty)
+        public override bool IsMatch(Property ag_property, Property db_property)
         {
-            var agencyAddress = regx.Replace(agencyProperty.Address, "");
-            var agencyName = regx.Replace(agencyProperty.Name, "");
-            var databasAddress = regx.Replace(databaseProperty.Address, "");
-            var databasName = regx.Replace(databaseProperty.Name, "");
+            var agencyAddress = regx.Replace(ag_property.Address, "");
+            var agencyName = regx.Replace(ag_property.Name, "");
+            var databasAddress = regx.Replace(db_property.Address, "");
+            var databasName = regx.Replace(db_property.Name, "");
 
             return
                 agencyAddress.Equals(databasAddress, StringComparison.OrdinalIgnoreCase) &&

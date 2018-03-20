@@ -7,7 +7,7 @@ namespace Domain.Core.Business.Abstractions
 {
     public interface IPropertyMatcher
     {
-        bool IsMatch(Property agencyProperty, Property databaseProperty);
+        bool IsMatch(Property ag_property, Property db_property);
     }
 
 }

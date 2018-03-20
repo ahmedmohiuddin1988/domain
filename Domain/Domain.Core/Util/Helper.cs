@@ -1,7 +1,7 @@
-﻿using GeoCoordinatePortable;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using GeoCoordinatePortable;
 
 namespace Domain.Core.Util
 {
@@ -10,15 +10,15 @@ namespace Domain.Core.Util
         /// <summary>
         /// Get the distance between two Geo Coordinates in Meters
         /// </summary>
-        /// <param name="latitude1"></param>
-        /// <param name="longitude1"></param>
-        /// <param name="latitude2"></param>
-        /// <param name="longitude2"></param>
+        /// <param name="ag_lat"></param>
+        /// <param name="ag_long"></param>
+        /// <param name="db_lat"></param>
+        /// <param name="db_long"></param>
         /// <returns>In meters</returns>
-        public static double GetDistanceByGeoCoordinatesInMeters(double latitude1, double longitude1, double latitude2, double longitude2)
+        public static double GetDistance(double ag_lat, double ag_long, double db_lat, double db_long)
         {
-            var sCoord = new GeoCoordinate(latitude1, longitude1);
-            var eCoord = new GeoCoordinate(latitude2, longitude2);
+            var sCoord = new GeoCoordinate(ag_lat, ag_long);
+            var eCoord = new GeoCoordinate(db_lat, db_long);
             return sCoord.GetDistanceTo(eCoord);
         }
     }

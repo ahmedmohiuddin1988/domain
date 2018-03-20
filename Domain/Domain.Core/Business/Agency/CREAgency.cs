@@ -18,12 +18,12 @@ namespace Domain.Core.Business.Agency
             }
         }
 
-        public override bool IsMatch(Property agencyProperty, Property databaseProperty)
+        public override bool IsMatch(Property ag_property, Property db_property)
         {
-            IEnumerable<string> agencyNameWords = regex.Split(agencyProperty.Name).Reverse();
+            IEnumerable<string> agencyNameWords = regex.Split(ag_property.Name).Reverse();
             var agencyName = string.Join(" ", agencyNameWords);
 
-            var databaseNameWords = regex.Split(databaseProperty.Name);
+            var databaseNameWords = regex.Split(db_property.Name);
             var databaseAgencyName = string.Join(" ", databaseNameWords);
 
             return agencyName.Equals(databaseAgencyName, StringComparison.OrdinalIgnoreCase);

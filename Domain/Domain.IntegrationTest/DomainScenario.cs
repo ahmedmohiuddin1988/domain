@@ -47,7 +47,7 @@ namespace Domain.IntegrationTest
                 var response = await server.CreateClient()
                                    .PostAsync(Post.Domain, content);
 
-                Assert.True(HttpStatusCode.NotAcceptable == response.StatusCode);
+                Assert.True(HttpStatusCode.BadRequest == response.StatusCode);
             }
         }
 
