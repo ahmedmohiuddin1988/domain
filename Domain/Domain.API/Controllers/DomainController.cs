@@ -8,6 +8,7 @@ using Domain.Core.Business;
 using System.Net;
 using AutoMapper;
 using Domain.Core.Entity;
+using Microsoft.Extensions.Configuration;
 
 namespace Domain.API.Controllers
 {
@@ -15,10 +16,12 @@ namespace Domain.API.Controllers
     public class DomainController : Controller
     {
         private readonly IMapper _mapper;
+        private readonly IConfiguration _configuration;
 
-        public DomainController(IMapper mapper)
+        public DomainController(IMapper mapper, IConfiguration configuration)
         {
             _mapper = mapper;
+            _configuration = configuration;
         }
         /// <summary>
         /// Match between agency property & database property.
@@ -45,8 +48,7 @@ namespace Domain.API.Controllers
                 var provider = AgencyFactory.GetProvider(comparer.Provider);
                 if (provider == null)
                 {
-                //get config
-                    return BadRequest($"{comparer.Provider} as provider not exist");
+                    return BadRequest($"{comparer.Provider} is invalid provider");
                 }
                 bool result = provider.IsMatch(_mapper.Map<Property>(comparer.AgencyProperty), _mapper.Map<Property>(comparer.DatabaseProperty));
 

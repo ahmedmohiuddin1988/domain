@@ -35,8 +35,11 @@ namespace Domain.API
 
             var mapper = config.CreateMapper();
             services.AddSingleton(mapper);
-            services.AddMvc();
 
+            services.AddSingleton<IConfiguration>(Configuration);
+
+            services.AddMvc();
+            
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
             {
