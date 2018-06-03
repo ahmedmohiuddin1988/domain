@@ -425,11 +425,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Local-repo\\Domain\\Domain.Core\\Domain.Core.csproj",
+      "projectUniqueName": "C:\\new repo\\Domain\\Domain.Core\\Domain.Core.csproj",
       "projectName": "Domain.Core",
-      "projectPath": "C:\\Local-repo\\Domain\\Domain.Core\\Domain.Core.csproj",
+      "projectPath": "C:\\new repo\\Domain\\Domain.Core\\Domain.Core.csproj",
       "packagesPath": "C:\\Users\\amohiuddin\\.nuget\\packages\\",
-      "outputPath": "C:\\Local-repo\\Domain\\Domain.Core\\obj\\",
+      "outputPath": "C:\\new repo\\Domain\\Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
