@@ -12,7 +12,7 @@ namespace Domain.UnitTest
         [TestMethod]
         public void OTBRE_Agency_Test_With_Non_Matching_Name_Address()
         {
-            //Arrange
+            //Arrange  random test
             var databaseProperty = new Property()
             {
                 Name = "Super High Apartments, Sydney",
@@ -26,7 +26,7 @@ namespace Domain.UnitTest
             };
             var provider = AgencyFactory.GetProvider("OTBRE");                                        
 
-            //Action
+            //Action random action
             var result = provider.IsMatch(agencyProperty, databaseProperty);
 
             //Assert
