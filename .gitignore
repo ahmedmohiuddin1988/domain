@@ -18,6 +18,7 @@ OS junk files
 *.bak
 *.[Cc]ache
 *.ilk
+*.ide
 *.log
 *.lib
 *.sbr
