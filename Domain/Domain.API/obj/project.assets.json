@@ -12788,11 +12788,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Local-repo\\Domain\\Domain.API\\Domain.API.csproj",
+      "projectUniqueName": "C:\\new repo\\Domain\\Domain.API\\Domain.API.csproj",
       "projectName": "Domain.API",
-      "projectPath": "C:\\Local-repo\\Domain\\Domain.API\\Domain.API.csproj",
+      "projectPath": "C:\\new repo\\Domain\\Domain.API\\Domain.API.csproj",
       "packagesPath": "C:\\Users\\amohiuddin\\.nuget\\packages\\",
-      "outputPath": "C:\\Local-repo\\Domain\\Domain.API\\obj\\",
+      "outputPath": "C:\\new repo\\Domain\\Domain.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12812,8 +12812,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Local-repo\\Domain\\Domain.Core\\Domain.Core.csproj": {
-              "projectPath": "C:\\Local-repo\\Domain\\Domain.Core\\Domain.Core.csproj"
+            "C:\\new repo\\Domain\\Domain.Core\\Domain.Core.csproj": {
+              "projectPath": "C:\\new repo\\Domain\\Domain.Core\\Domain.Core.csproj"
             }
           }
         }

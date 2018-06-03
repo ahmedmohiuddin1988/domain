@@ -18,7 +18,7 @@ namespace Domain.UnitTest
                 Name = "Super High Apartments, Sydney",
                 Address = "32 Sir John Young Crescent, Sydney NSW"
             };
-
+            
             var agencyProperty = new Property()
             {
                 Name = "*Super*-High! APARTMENTS (Sydney)",
@@ -36,7 +36,7 @@ namespace Domain.UnitTest
         [TestMethod]
         public void OTBRE_Agency_Test_With_Non_Matching()
         {
-            //Arrange
+            //Arrange Test Case
             var databaseProperty = new Property()
             {
                 Name = "New Court High Apartments, Sydney",
@@ -50,7 +50,7 @@ namespace Domain.UnitTest
             };
             var provider = AgencyFactory.GetProvider("OTBRE");
 
-            //Action
+            //Action to perform test
             var result = provider.IsMatch(agencyProperty, databaseProperty);
 
             //Assert
